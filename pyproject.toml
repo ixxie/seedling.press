@@ -1,0 +1,18 @@
+[project]
+name = "seedling"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Matan Bendix Shenhav", email = "matan@shenhav.fyi" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+seedling = "seedling:main"
+
+[build-system]
+requires = ["uv_build>=0.6,<0.7"]
+build-backend = "uv_build"
+
